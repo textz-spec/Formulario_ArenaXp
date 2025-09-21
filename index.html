@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulário online para cadastro e participação de jogadores em torneios e eventos de games, com foco em jogos competitivos e multiplayer." >
+    <meta name="keywords" content="Jogos online, Games multiplayer, Jogos para PC, Jogos para console, Jogos para mobile, Jogos competitivos, Jogos de tiro, RPG, Estratégia, Aventura, Inscrição de jogador, Cadastro de jogador, Registro de gamer, Formulário de jogo, Participação em torneio, Cadastro de jogadores online, Formulário de inscrição para torneio de games, Registro de gamers competitivos, Inscrição para eventos de games, Ranking de jogadores, Torneio de e-sports, Competição de games, Feedback de jogo">
+    <meta name="author" content="Pietro henri.">
+    <link rel="icon" href="img/icon..png">
+    <link rel="stylesheet" href="css/form.css">
+    
+    <title> arena xp</title>
+</head>
+<body>
+    
+    <header>
+        <h1>
+            level|up <span class="red">cup</span> - <span class="details"> inscrição</span>
+        </h1>
+    </header>
+
+    <main>
+        <!--fundo transparente-->
+        <div class="fundo">
+          
+        <!--formulario-->  
+        <form>
+        
+        <!--nome.nick-->
+        <div>
+
+        <label for="Nome">Name</label>
+        <input type="text" name="Nome" id="Nome" placeholder="digite seu nome" required>
+
+         <label for="nickname">nick</label>
+        <input type="text" name="nickname" id="nickname" placeholder="digite seu nickname" required>
+        </div>
+       <!--email.senha-->
+        <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="digite seu email" required>
+        
+        <label for="idade">Idade</label>
+        <input type="text" name="idade" placeholder="digite sua idade" required>
+
+        </div>
+       
+        <!--checklist-->
+        <div>
+        <p> selecione o jogo</p>
+        <select>
+
+        <option selected disabled>
+        selecione o jogo
+        </option>    
+          
+          <option value="valorant">
+        <label for="j.e">valorant</label>
+        </option>    
+
+          <option value="minecraft">
+        <label for="j.e">minecraft</label>
+        </option>    
+
+            <option value="Brawlhalla">
+        <label for="j.e">Brawlhalla</label>
+        </option>    
+
+            <option value="Minecraft">
+        <label for="j.e">Minecraft</label>
+        </option>    
+
+            <option value="Apex Legends">
+        <label for="j.e">Apex Legends</label>
+        </option>    
+
+            <option value="Fortnite">
+        <label for="j.e">Fortnite</label>
+        </option>    
+
+
+
+
+
+
+        </select>
+    
+
+        </div>
+
+        <!--Plataformas-->
+         <div class="p12">
+
+         <p> plataformas: </p>
+
+         <input type="radio" id="pc" name="plataforma" value="pc" required>
+         <label class="label" for="pc">PC</label>
+
+          <input type="radio" id="mobile" name="plataforma" value="mobile">
+          <label class="label" for="mobile">mobile</label>
+        
+          <input type="radio" id="console" name="plataforma" value="console">
+          <label class="label" for="pc">console</label>
+
+         </div>
+        
+        <!--textarea-->
+         <div>
+
+         <textarea  placeholder="Expectativas para o torneio"
+          rows="3" cols="30"></textarea>
+
+
+         </div>
+        <!--checkbox-->
+         <div" class="pf1">
+           
+            <input  type="checkbox" id="li" name="termos" value="li e concordo" required> 
+            
+            <label" for="li">Li e concordo com os termos</label>
+
+            <input type="checkbox" id="quero" name="termos" value="quero receber mensagens" required> 
+            <label class="check" for="quero">   Quero receber novidades
+            </label>
+            
+         </div>
+
+        </div>
+
+       
+        <div>
+             <button type="submit">Enviar</button>
+        </div>
+
+
+            </form>
+        
+    </main>
+
+
+
+
+
+
+
+</body>
+</html>

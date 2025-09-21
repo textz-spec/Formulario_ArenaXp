@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    color: #FFB300;
+    background: url(../img/conter.strike.png) right;
+    text-transform: uppercase;
+      font-family: "Roboto", sans-serif;
+}
+
+
+
+
+/* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
+@media only screen and (min-width: 600px) {
+
+
+body {
+    color: #FFB300;
+    background: url(../img/vavo.png) center no-repeat;
+    
+    text-transform: uppercase;
+
+
+header h1{
+display: flex;
+justify-content: center;
+text-align: center;
+color: white;
+font-size: 45px;
+}
+
+.fundo {
+   
+    border-radius: 8px;
+    margin: 1% 2% 1% 5%;
+    padding: 1% 5% 1% 1%;
+    overflow-x: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+label {
+   color: #FFB300;
+    text-align: center;
+    width: 120px;
+   
+        
+}
+
+input {
+    font-size: 20px;
+    width: 80%;
+}
+
+.label {
+    margin: 1% 10%;
+      font-size: 20px;
+}
+textarea  {
+    text-align: center;
+     width: 100%;
+     height: 50px;
+     margin: 1% 1% 1% 1%;
+}
+
+
+.pf1 {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: left;
+    margin: 1% 30%;
+    
+}
+
+button {
+   font-size: 35px;
+   text-align: center;
+   background-color: #FFB300;
+   color: white;
+   border: #FFB300 2px solid;
+   border-radius: 6px;
+   margin-top: 5%;
+}
+
+button:hover {
+    font-size: 45px;
+    background-color: white;
+    color: #FFB300;
+     border: white 2px solid;
+}
+
+
+
+
+}
+
+}
+
+/*Dispostivos Médios (Tablets deitados, 768px para cima) */
+@media only screen and (min-width: 768px) {
+
+body {
+    color: #FFB300;
+    background: url(../img/vavo.png) center no-repeat;
+    
+    text-transform: uppercase;
+
+
+header h1{
+display: flex;
+justify-content: center;
+text-align: center;
+color: white;
+font-size: 45px;
+}
+
+.fundo {
+   
+    border-radius: 8px;
+    margin: 1% 2% 1% 5%;
+    padding: 1% 5% 1% 1%;
+    overflow-x: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+label {
+   color: #FFB300;
+    text-align: center;
+    width: 120px;
+   
+        
+}
+
+input {
+    font-size: 20px;
+    width: 80%;
+}
+
+.label {
+    margin: 1% 10%;
+      font-size: 20px;
+}
+textarea  {
+    text-align: center;
+     width: 100%;
+     height: 50px;
+     margin: 1% 1% 1% 1%;
+}
+
+
+.pf1 {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: left;
+    margin: 1% 30%;
+    
+}
+
+button {
+   font-size: 35px;
+   text-align: center;
+   background-color: #FFB300;
+   color: white;
+   border: #FFB300 2px solid;
+   border-radius: 6px;
+   margin-top: 5%;
+}
+
+button:hover {
+    font-size: 45px;
+    background-color: white;
+    color: #FFB300;
+     border: white 2px solid;
+}
+
+
+
+
+}
+
+
+
+}
+
+/* Dispostivos Largos (laptops/desktops, 992px para cima) */
+@media only screen and (min-width: 992px) {
+
+
+body {
+    color: #FFB300;
+    background: url(../img/conter.strike.altura.png) top;
+    text-transform: uppercase;
+}
+
+
+
+/*topo*/
+
+header h1{
+display: flex;
+justify-content: center;
+text-align: center;
+color: white;
+font-size: 25px;
+}
+
+
+
+.fundo {
+   
+    border-radius: 8px;
+    padding: 5% 1% 5% 1%;
+    overflow-x: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+input {
+    font-size: 10px;
+}
+
+
+
+main div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1% 1% 5% 1%;
+    flex-wrap: wrap;
+   gap: 5px;
+   
+}
+
+
+
+
+label {
+   color: #FFB300;
+    text-align: center;
+    width: 50px;
+   
+        
+}
+
+input {
+    
+    width: 25%;
+}
+
+select {
+margin: 2% 10%;
+}
+
+.label {
+    margin: 0% 1%;
+      font-size: 10px;
+}
+
+
+textarea  {
+    text-align: center;
+    
+}
+
+.f1 {
+     font-size: 10px;
+     text-align: center;
+}
+
+button {
+   font-size: 20px;
+   text-align: center;
+   background-color: #FFB300;
+   color: white;
+   border: #FFB300 2px solid;
+   border-radius: 6px;
+}
+
+button:hover {
+    font-size: 25px;
+    background-color: white;
+    color: #FFB300;
+     border: white 2px solid;
+}
+
+.details {
+    color:  #D35400;
+    border-bottom: black solid 2px;
+}
+.red {
+    color: red;
+}
+
+.p12 {
+
+      display: flex;
+    flex-flow: column wrap;
+    text-align: left;
+    margin: 1% 30%;
+    
+}
+
+.pf1 {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    padding: 1% 0 1% 7%;
+    
+}
+
+}
+
+/* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
+@media only screen and (min-width: 1200px) {
+
+input {
+    font-size: 10px;
+}
+
+
+
+main div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1% 1% 5% 1%;
+    flex-wrap: wrap;
+   gap: 5px;
+   
+}
+
+
+
+
+label {
+   color: #FFB300;
+    text-align: center;
+    width: 50px;
+   
+        
+}
+
+input {
+    
+    width: 25%;
+}
+
+select {
+margin: 2% 10%;
+}
+
+.label {
+    margin: 0% 1%;
+      font-size: 10px;
+}
+
+
+textarea  {
+    text-align: center;
+    width: 100%;
+    
+}
+
+.f1 {
+     font-size: 10px;
+     text-align: center;
+}
+
+button {
+   font-size: 20px;
+   text-align: center;
+   background-color: #FFB300;
+   color: white;
+   border: #FFB300 2px solid;
+   border-radius: 6px;
+}
+
+button:hover {
+    font-size: 25px;
+    background-color: white;
+    color: #FFB300;
+     border: white 2px solid;
+}
+
+.details {
+    color:  #D35400;
+    border-bottom: black solid 2px;
+}
+.red {
+    color: red;
+}
+
+.p12 {
+
+      display: flex;
+    flex-flow: column wrap;
+    text-align: left;
+    margin: 1% 30%;
+    
+}
+
+.pf1 {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    padding: 1% 0 1% 7%;
+    
+}
+
+}
+
+
+
+
+
+
+/*programacao principal*/
+
+
+
+/*topo*/
+
+header h1{
+display: flex;
+justify-content: center;
+text-align: center;
+color: white;
+font-size: 25px;
+}
+
+
+
+.fundo {
+   
+    border-radius: 8px;
+    padding: 5% 1% 5% 1%;
+    overflow-x: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+input {
+    font-size: 10px;
+}
+
+
+
+main div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1% 1% 5% 1%;
+    flex-wrap: wrap;
+   gap: 5px;
+   
+}
+
+/*estilo*/ 
+
+    input:focus {
+        background-color: #FFB300;
+        color: black;
+        border:2px  #FFB300 dotted  ;
+        border-radius: 0px;
+    }
+   
+    option {
+        background-color: #FFB300;
+        color: #888888;
+        
+    }
+
+    select {
+         color: #888888;
+    }
+    
+
+    textarea:focus {
+        background-color: #FFB300;
+          color: #888888;
+    }
+  
+ 
+
+   
+/*fim de estilo*/
+
+label {
+    color: #FFB300;
+    text-align: center;
+    width: 50px;
+   
+        
+}
+
+input {
+    
+    width: 25%;
+}
+
+select {
+margin: 2% 10%;
+}
+
+.label {
+    margin: 0% -12%;
+      font-size: 10px;
+}
+
+
+textarea  {
+    text-align: center;
+    
+}
+
+.f1 {
+     font-size: 10px;
+     text-align: center;
+}
+
+button {
+   font-size: 20px;
+   text-align: center;
+   background-color: #FFB300;
+   color: white;
+   border: #FFB300 2px solid;
+   border-radius: 6px;
+}
+
+button:hover {
+    font-size: 25px;
+    background-color: white;
+    color: #FFB300;
+     border: white 2px solid;
+}
+
+.details {
+    color:  #D35400;
+    border-bottom: black solid 2px;
+}
+.red {
+    color: red;
+}
